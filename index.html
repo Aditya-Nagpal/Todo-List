@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/styles.css">
+    <title>Todo List</title>
+</head>
+<body>
+    <h1>ToDo list app</h1>
+    <div id="container">
+      <input placeholder="Add a task" class="add-task" id="add" />
+      <span id="total-tasks"
+        >Total tasks: <span id="tasks-counter">0</span></span
+      >
+      <ul id="list"></ul>
+    </div>
+
+    <script type="text/javascript" src="/TodoListModule.js"></script>
+    <script type="text/javascript">
+        TodoListApp.initialize();
+    </script>
+</body>
+</html>
